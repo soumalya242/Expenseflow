@@ -1,9 +1,12 @@
 
 .form {
   background-color: #ffffff30;
-  backdrop-filter: ;
-  display: block;
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem;
+  min-width: 300px;
   max-width: 350px;
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -20,23 +23,27 @@
 
 .input-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-container input, .form button {
-  outline: none;
+  /* outline: none; */
   border: 1px solid #e5e7eb;
   margin: 8px 0;
 }
 
 .input-container input {
   background-color: #fff;
-  padding: 1rem;
-  padding-right: 3rem;
+  padding: 1rem 0;
+  padding-left: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  width: 75%;
+  width: 130%;
   border-radius: 0.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
 }
 
 .submit {
@@ -50,9 +57,15 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
-  width: 100%;
+  width: 90%;
   border-radius: 0.5rem;
   text-transform: uppercase;
+}
+
+.submit:hover {
+  cursor: pointer;
+  outline: #e5e7eb solid;
+  font-weight: 600;
 }
 
 .signup-link {
@@ -67,3 +80,6 @@
   color: #ffffff;
 }
 
+.signup-link a:hover {
+  color: #c4c4c4;
+}
