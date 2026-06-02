@@ -1,10 +1,6 @@
 import React from 'react'
-<<<<<<< HEAD
-import { Link } from "react-router-dom";
-=======
 import { Link } from 'react-router-dom'
->>>>>>> dev1
-import './Login.css'
+import './Signin.css'
 
 function Login() {
   return (
@@ -26,7 +22,7 @@ function Login() {
 
           <p class="signin-link">
             No account?
-            <Link to="/">Sign up</Link>
+            <Link to="/signup">Sign up</Link>
           </p>
         </form>
       </div>
