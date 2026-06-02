@@ -1,6 +1,7 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 import Login from './pages/Login/Login.jsx'
+import Signup from './pages/Signup/Signup.jsx'
 import './App.css'
 import Landing from './pages/Landing page/landing.jsx';
 
