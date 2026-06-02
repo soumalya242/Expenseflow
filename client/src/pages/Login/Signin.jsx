@@ -21,7 +21,7 @@ function Login() {
           </button>
 
           <p class="signin-link">
-            No account?
+            No account?{" "}
             <Link to="/signup">Sign up</Link>
           </p>
         </form>
