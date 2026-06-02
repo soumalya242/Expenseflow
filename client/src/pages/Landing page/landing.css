@@ -1,15 +1,15 @@
-*{
+.navbar *{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:Arial,sans-serif;
 }
 
-body{
+/* body{
     background:linear-gradient(135deg,#00109e,#040b38);
     min-height:100vh;
     padding:20px;
-}
+} */
 
 .navbar{
     width:100%;
@@ -57,11 +57,11 @@ body{
 
 .contact-btn{
     background:#2563eb;
+    color:white;
 }
 
 .contact-btn:hover{
     background:#1d4ed8;
-    color:white !important;
 }
 
 .menu-icon{
