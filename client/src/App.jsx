@@ -1,4 +1,5 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 import Login from './pages/Login/Login.jsx'
 import Signup from './pages/Signup/Signup.jsx'
 import './App.css'
@@ -6,8 +7,10 @@ import './App.css'
 function App() {
   return (
     <>
-      {/* <Login /> */}
-      <Signup />
+      <Routes>
+        <Route path='/' element={<Signup />} />
+        <Route path='/signin' element={<Login />} />
+      </Routes>
     </>
   )
 }
