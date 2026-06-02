@@ -1,7 +1,7 @@
 :root {
     background-color: #9bafd9;
     background-image: linear-gradient(to right, #536388, #163677);
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 
 body {

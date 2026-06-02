@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import './Login.css'
 
-function Login() {
+function Signin() {
   return (
     <>
       <div id="login-container">
@@ -30,4 +30,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Signin
