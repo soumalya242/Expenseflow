@@ -1,12 +1,12 @@
 import React from 'react'
-import './Login.css'
+import './Signup.css'
 
-function Login() {
+const Signup = () => {
   return (
     <>
-      <div id="signin-container">
+      <div id="signup-container">
         <form class="form">
-          <p class="form-title">Sign in to your account</p>
+          <p class="form-title">Welcome to Expenseflow</p>
           <div class="input-container">
             <input type="email" placeholder="Enter email" />
             <span>
@@ -14,14 +14,19 @@ function Login() {
           </div>
           <div class="input-container">
             <input type="password" placeholder="Enter password" />
+            <span>
+            </span>
+          </div>
+          <div class="input-container">
+            <input type="password" placeholder="Confirm password" />
           </div>
           <button type="submit" class="submit">
-            Sign in
+            Sign up
           </button>
 
-          <p class="signin-link">
-            No account?
-            <a href="">Sign up</a>
+          <p class="signup-link">
+            Already have an account?
+            <a href="">Sign in</a>
           </p>
         </form>
       </div>
@@ -29,4 +34,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Signup

@@ -68,18 +68,18 @@
   font-weight: 600;
 }
 
-.signin-link {
+.signup-link {
   color: #000000;
   font-size: 0.875rem;
   line-height: 1.25rem;
   text-align: center;
 }
 
-.signin-link a {
+.signup-link a {
   text-decoration: underline;
   color: #ffffff;
 }
 
-.signin-link a:hover {
+.signup-link a:hover {
   color: #c4c4c4;
 }
