@@ -6,21 +6,22 @@ function Signin() {
   return (
     <>
       <div id="signin-container">
-        <form class="form">
-          <p class="form-title">Sign in to your account</p>
-          <div class="input-container">
+        <Link to="/" className="back-button">{"<"} <span>Back</span></Link>
+        <form className="form">
+          <p className="form-title">Sign in to your account</p>
+          <div className="input-container">
             <input type="email" placeholder="Enter email" />
             <span>
             </span>
           </div>
-          <div class="input-container">
+          <div className="input-container">
             <input type="password" placeholder="Enter password" />
           </div>
-          <button type="submit" class="submit">
+          <button type="submit" className="submit">
             Sign in
           </button>
 
-          <p class="signin-link">
+          <p className="signin-link">
             No account?{" "}
             <Link to="/signup">Sign up</Link>
           </p>

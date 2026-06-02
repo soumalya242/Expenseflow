@@ -1,7 +1,3 @@
-:root {
-    /* overflow-y: hidden; */
-}
-
 body {
     display: flex;
     justify-content: center;

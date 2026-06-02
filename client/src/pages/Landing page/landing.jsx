@@ -36,7 +36,7 @@ const Landing = () => {
 
                     <section>
                         <li>
-                            <Link to="/Signin" className="contact-btn">
+                            <Link to="/signin" className="contact-btn">
                             Sign in
                             </Link>
                         </li>
