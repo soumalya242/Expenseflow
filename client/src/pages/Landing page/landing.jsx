@@ -20,7 +20,7 @@ const Landing = () => {
 
             <main>
                 <section className="main" id="home">
-                    Home
+                    home
                 </section>
                 <section className="main" id="about">
                     About

@@ -6,7 +6,7 @@ import Landing from './pages/Landing page/landing.jsx';
 import './App.css'
 
 
-function App() {
+const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
