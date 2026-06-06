@@ -131,6 +131,7 @@ main {
 .main{
     height: 50vh;
     width: 80vw;
+    margin: 10px;
     background-color: rgb(173, 210, 69);
     border-radius: 30px;
     justify-content: center;
